@@ -488,7 +488,7 @@ workflows:
         BUNDLE_ID: "io.codemagic.cmreactnative"
         APP_STORE_APP_ID: 1571903173
       node: 16.11.1
-      xcode: 14.3
+      xcode: 15
       cocoapods: default
     triggering:
       events:
