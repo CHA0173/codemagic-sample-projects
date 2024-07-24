@@ -2,7 +2,7 @@ workflows:
   ios-automatic-code-signing:
     name: iOS automatic code signing
     instance_type: mac_mini_m1
-    working_directory: ios/ios-automatic-code-signing-demo-project
+    working_directory: /react-native/react-native-demo-project/ios/ios-automatic-code-signing-demo-project
     environment:
       groups:
         - ios_creds # <-- (group contains variables: APP_STORE_CONNECT_ISSUER_ID, APP_STORE_CONNECT_KEY_IDENTIFIER, APP_STORE_CONNECT_PRIVATE_KEY, CERTIFICATE_PRIVATE_KEY)
